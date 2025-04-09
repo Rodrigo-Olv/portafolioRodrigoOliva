@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Rodrigo Oliva">
+    <meta name="description" content="Portafolio de desarrollo web de Rodrigo">
+    <meta name="keywords" content="HTML, CSS, Javascript, React Bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo-->
+    <title>Rodrigo Oliva Portafolio web</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono-favicon.png">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--CSS-->
+    <link href="style.css" rel="stylesheet"> 
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header y Barra de navegacion-->
+    <header id="myHeader" class="hidden">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand blanco me-4 mb-1" href="#">Rodrigo Oliva</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-lg-0 d-flex gap-4">
+              <li class="nav-item blanco">
+                <a class="blanco" aria-current="page" href="#sobremi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="blanco" aria-current="page" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="blanco" aria-current="page" href="#experiencia">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="blanco" aria-current="page" href="#educacion">Educación</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--Seccion principal-->
+      <section class="container principal d-flex flex-xl-row gap-5 align-items-start" id="sobremi">
+        <div class="pe-xl-5 col">
+          <h1>Rodrigo Oliva</h1>
+          <h2>Full-stack developer</h2>
+          <p>
+            Tengo conocimientos en programación web front/black end: PHP, MySQL, HTML,
+             CSS, Typescript y Java. Se utilizar frameworks tanto de front como de back:React, 
+             NodeJS(Express) Angular, Bootstrap y Tailwind. He creado y sigo creando proyectos con 
+             estos lenguajes para seguir aprendiendo y perfeccionando mis conocimientos como desarrollador. 
+             Tengo mucha experiencia en herramientas de Diseño gráfico y web como Figma, Photoshop, Ilustrator o Canva. 
+             Tengo aptitudes en diseño UX y conocimientos en SEO para webs. También he trabajado y se utilizar 
+             Wordpress con gran habilidad.
+          </p>
+          <!--contacto-->
+          <div class="d-md-flex align-items-stretch gap-3 justify-content-start">
+            <div class="d-flex gap-3 py-2">
+              <a  class="btn-linkedin btn-contacto" href="https://www.linkedin.com/in/rodrigo-oliva-b43560263/">
+                <i class="bi bi-linkedin blanco"></i>
+                Linkedin
+              </a>
+              <a class="btn-github btn-contacto" href="https://github.com/Rodrigo-Olv?tab=repositories">
+                <i class="bi bi-github blanco"></i>
+                Github
+              </a>
+            </div>
+            <div class="d-flex gap-3 py-2">
+              <a class="btn-behance btn-contacto" href="https://www.behance.net/rodrigooliva98#">
+                <i class="bi bi-behance"></i>
+                Behance
+              </a>
+              <a class="btn-pdf btn-contacto" href="http://rodrigo-oliva.es//CV-Rodrigo%20Oliva%2003-2025.pdf">
+                <i class="bi bi-file-pdf-fill"></i>
+                Curriculum PDF
+              </a>
+            </div>
+
+
+
+          </div>
+        </div>
+        <!--programming skills-->
+        <div class="col d-flex flex-column align-items-center gap-2">
+          <h2>Programming skills</h2>
+          <div class="d-md-flex container-fluid p-0 gap-4">
+            <!--Container front-->
+            <div class="col-md-6 d-flex flex-column align-items-start justify-content-start p-xl-4 ">
+              <h3 class="mb-0">Front-end</h3>
+              <div class="container-fluid p-0"><hr class="solid"></div>
+              <div class="my-1 justify-content-start container-fluid px-0"> <!--html-->
+                <h4>HTML5</h4>
+                <div class="d-flex flex-row align-items-center pt-1 gap-1">
+                  <img class="iconos-lenguajes" src="imagenes/icon-html.png" alt="Icono HTML">
+                  <div class="progress col" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 90%">Excelente</div>
+                  </div>
+                </div>
+              </div>
+              <div class="my-1 justify-content-start container-fluid px-0"> <!--css-->
+                <h4>CSS</h4>
+                <div class="d-flex flex-row align-items-center pt-1 gap-1">
+                  <img class="iconos-lenguajes" src="imagenes/icon-css.png" alt="Icono HTML">
+                  <div class="progress col" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 90%">Excelente</div>
+                  </div>
+                </div>
+              </div>
+              <div class="my-1 justify-content-start container-fluid px-0"> <!--js-->
+                <h4>Javascript</h4>
+                <div class="d-flex flex-row align-items-center pt-1 gap-1">
+                  <img class="iconos-lenguajes" src="imagenes/icon-javascript.png" alt="Icono HTML">
+                  <div class="progress col" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 70%">Muy bueno</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="my-1 justify-content-start container-fluid px-0"> <!--Angular-->
+                <h4>Angular</h4>
+                <div class="d-flex flex-row align-items-center pt-1 gap-1">
+                  <img class="iconos-lenguajes" src="imagenes/icon-angular.png" alt="Icono HTML">
+                  <div class="progress col" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 70%">Muy bueno</div>
+                  </div>
+                </div>
+              </div>
+              <div class="my-1 justify-content-start container-fluid px-0"> <!--Bootstrap-->
+                <h4>Bootstrap</h4>
+                <div class="d-flex flex-row align-items-center pt-1 gap-1">
+                  <img class="iconos-lenguajes" src="imagenes/icon-bootstrap.png" alt="Icono HTML">
+                  <div class="progress col" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 80%">Excelente</div>
+                  </div>
+                </div>
+              </div>
+              <div class="my-1 justify-content-start container-fluid px-0"> <!--Tailwind-->
+                <h4>Tailwind</h4>
+                <div class="d-flex flex-row align-items-center pt-1 gap-1">
+                  <img class="iconos-lenguajes" src="imagenes/icon-tailwind.svg" alt="Icono HTML">
+                  <div class="progress col" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 60%">Bueno</div>
+                  </div>
+                </div>
+              </div>
+              <div class="my-1 justify-content-start container-fluid px-0"> <!--ReactJS-->
+                <h4>ReactJS</h4>
+                <div class="d-flex flex-row align-items-center pt-1 gap-1">
+                  <img class="iconos-lenguajes" src="imagenes/icon-react.webp" alt="Icono HTML">
+                  <div class="progress col" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 60%">Bueno</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!--container back-->
+            <div class="col-md-6 d-flex flex-column align-items-start justify-content-start p-xl-4 back">
+              <h3 class="mb-0">Back-end</h3>
+              <div class="container-fluid p-0"><hr class="solid"></div>
+              <div class="my-1 justify-content-start container-fluid px-0"> <!--php-->
+                <h4>PHP</h4>
+                <div class="d-flex flex-row align-items-center pt-1 gap-1">
+                  <img class="iconos-lenguajes" src="imagenes/icon-php.png" alt="Icono HTML">
+                  <div class="progress col" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 90%">Excelente</div>
+                  </div>
+                </div>
+              </div>
+              <div class="my-1 justify-content-start container-fluid px-0"> <!--mysql-->
+                <h4>MySQL</h4>
+                <div class="d-flex flex-row align-items-center pt-1 gap-1">
+                  <img class="iconos-lenguajes" src="imagenes/icon-mysql.png" alt="Icono HTML">
+                  <div class="progress col" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 80%">Excelente</div>
+                  </div>
+                </div>
+              </div>
+              <div class="my-1 justify-content-start container-fluid px-0"> <!--Java-->
+                <h4>Java</h4>
+                <div class="d-flex flex-row align-items-center pt-1 gap-1">
+                  <img class="iconos-lenguajes" src="imagenes/icon-java.png" alt="Icono HTML">
+                  <div class="progress col" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 60%">Bueno</div>
+                  </div>
+                </div>
+              </div>
+              <div class="my-1 justify-content-start container-fluid px-0"> <!--Typescript-->
+                <h4>Typescript</h4>
+                <div class="d-flex flex-row align-items-center pt-1 gap-1">
+                  <img class="iconos-lenguajes" src="imagenes/icon-typescript.png" alt="Icono HTML">
+                  <div class="progress col" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 60%">Bueno</div>
+                  </div>
+                </div>
+              </div>
+              <div class="my-1 justify-content-start container-fluid px-0"> <!--NodeJS-->
+                <h4>NodeJS(Express)</h4>
+                <div class="d-flex flex-row align-items-center pt-1 gap-1">
+                  <img class="iconos-lenguajes" src="imagenes/icon-node.png" alt="Icono HTML">
+                  <div class="progress col" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 60%">Bueno</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!--Seccion proyectos-->
+      <div class="container mt-5 " id="proyectos">
+        <h2>Proyectos</h2>
+        <hr class="solid">
+      </div>
+      <section class="container mt-md-2 p-md-2 d-md-flex gap-4 proyectos">
+        <div class="d-xl-flex flex-row gap-4">
+          <!--Proyecto 1-->
+          <div class="col-xl-6">
+            <div class="d-md-flex p-1 mb-1">
+              <div class="div-img-proyecto col-md-4"><img class="img-proyecto col-12" src="imagenes/Captura-moda-urbana.PNG"
+                  alt="Pagina web Moda Urbana"></div>
+              <div class="col-md-8 ms-2">
+                <a href="https://www.behance.net/gallery/218046003/Pagina-Web-con-PHP" target="_blank"> <!--enlace a la web-->
+                  <span class="d-flex align-items-center">
+                    <h3>E-coomerce creado con PHP</h3>
+                    <i class="bi bi-box-arrow-up-right px-2 color-encabezados"></i>
+                  </span>
+                </a>
+                <p class="descripcion-proyecto">Dispone de una base de datos en MySQL para almacenar los productos
+                  y poder utilizar el carrito de compra en la pagina web.
+                  Puedes registrate en la pagina web y ahcer log in. Puedes añadir productos al carrito
+                  y comprarlos pero sin comprarlos de verdad, solo se añaden a una tabla de pedidos
+                  en la base de datos.</p>
+                <!--iconos de programacion-->
+                <ul class="d-flex align-items-center flex-wrap gap-2">
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">PHP</div>
+                  </li>
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">MySQL</div>
+                  </li>
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">Javascript</div>
+                  </li>
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">CSS</div>
+                  </li>
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium">HTML</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="https://github.com/Rodrigo-Olv/moda-urbana" target="_blank"><span class="fs-5 color-encabezados">Repositorio del código en Github <i
+                  class="bi bi-github"></i></span></a>
+          </div>
+          <!--Proyecto 2-->
+          <div class="col-xl-6">
+            <div class="d-md-flex p-1 mb-1">
+              <div class="div-img-proyecto col-md-4"><img class="img-proyecto col-12" src="imagenes/portada-app-notas.jfif"
+                  alt="Pagina web Moda Urbana"></div>
+              <div class="col-md-8 ms-2">
+                <a href="https://www.behance.net/gallery/219112975/App-Notas-con-Angular-19" target="_blank"> <!--enlace a la web-->
+                  <span class="d-flex align-items-center">
+                    <h3>App de notas con Angular</h3>
+                    <i class="bi bi-box-arrow-up-right px-2 color-encabezados"></i>
+                  </span>
+                </a>
+                <p class="descripcion-proyecto">Pequeña aplicación hecha con Angular 
+                  en la que puedes crear o borrar notas con titulo y texto. Para poder entrar 
+                  necesitas registrarte y hacer login. El sistema de almacenamiento de cuentas 
+                  y notas se realiza mediante Localstorage ya que la app es más que nada una 
+                  práctica con Angular y no veía necesario incluir bases de datos.</p>
+                <!--iconos de programacion-->
+                <ul class="d-flex align-items-center flex-wrap gap-2">
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">Angular</div>
+                  </li>
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium">Javascript</div>
+                  </li>
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">CSS</div>
+                  </li>
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium">HTML</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a target="_blank" href="https://github.com/Rodrigo-Olv/App-Notas-Angular"><span class="fs-5 color-encabezados">Repositorio del código en Github <i
+                  class="bi bi-github"></i></span></a>
+          </div>
+        </div>
+        <div class="d-xl-flex flex-row gap-4">
+          <!--Proyecto 3-->
+          <div class="col-xl-6">
+            <div class="d-md-flex p-1 mb-1">
+              <div class="div-img-proyecto col-md-4"><img class="img-proyecto col-12" src="imagenes/portada-diseño-justprice.PNG"
+                  alt="Pagina web Moda Urbana"></div>
+              <div class="col-md-8 ms-2">
+                <a href="https://www.behance.net/gallery/185150085/App-The-Just-Price-Figma-UX-Desing" target="_blank"> <!--enlace a la web-->
+                  <span class="d-flex align-items-center">
+                    <h3>Diseño App movil</h3>
+                    <i class="bi bi-box-arrow-up-right px-2 color-encabezados"></i>
+                  </span>
+                </a>
+                <p class="descripcion-proyecto">Diseño completo de una aplicación en Figma.
+                  Este es el trabajo final de mi master en diseño grafico y web y se trata de toda
+                  una app creada pantalla a pantalla de 0 en Figma.
+                </p>
+                <!--iconos de programacion-->
+                <ul class="d-flex align-items-center flex-wrap gap-2">
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">Figma</div>
+                  </li>
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">Photoshop</div>
+                  </li>
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">UX/UI</div>
+                  </li>
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium">Warfame</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a target="_blank" href="https://www.figma.com/proto/J1ikbKlYaBI4Zt3kTI8uQm/trabajo-app-final?kind=proto&node-id=277-93&starting-point-node-id=277%3A93&t=NtoucVkezjLs5cwL-1">
+              <span class="fs-5 color-encabezados">Prototipo de la app en Figma <i class="bi bi-window"></i></span></a>
+          </div>
+
+          <!--Proyecto 4-->
+          <div class="col-xl-6">
+            <div class="d-md-flex p-1 mb-1">
+              <div class="div-img-proyecto col-md-4"><img class="img-proyecto col-12" src="imagenes/portada-portafolio.PNG"
+                  alt="Pagina web Moda Urbana"></div>
+              <div class="col-md-8 ms-2">
+                <a href="https://rodrigo-oliva.es/" target="_blank"> <!--enlace a la web-->
+                  <span class="d-flex align-items-center">
+                    <h3>Portafolio con Bootstrap</h3>
+                    <i class="bi bi-box-arrow-up-right px-2 color-encabezados"></i>
+                  </span>
+                </a>
+                <p class="descripcion-proyecto">Este propio portafolio es en sí mismo un proyecto
+                  el cual he creado con ayuda de Bootstrap.
+                </p>
+                <!--iconos de programacion-->
+                <ul class="d-flex align-items-center flex-wrap gap-2">
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">Bootstrap</div>
+                  </li>
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">Javascript</div>
+                  </li>
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">CSS</div>
+                  </li>
+                  <li>
+                    <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">HTML</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="https://github.com/Rodrigo-Olv/Portafolio" target="_blank"><span class="fs-5 color-encabezados">Repositorio del código en Github <i
+                  class="bi bi-github"></i></span></a>
+          </div>
+        </div>
+      </section>
+    
+      <!--Seccion Experiencia-->
+      <div class="container mt-5" id="experiencia">
+        <h2>Experiencia</h2>
+        <hr class="solid">
+      </div>
+      <section class="container gap-4" id="exp">
+        <!--Empresa 1-->
+        <div class="ficha-exp p-1 mb-1">
+          <a href="https://bestratia.com/"> <!--enlace a la web-->
+            <span class="d-flex align-items-center">
+              <h3 class="fs-4 mb-0">Be Stratia | Agencia de márketing digital</h3>
+              <i class="bi bi-box-arrow-up-right px-2 color-encabezados"></i>
+            </span>
+          </a>
+          <h4 class=" my-2">Desarrollador web | Prácticas | 09-2024 — 02-2025</h4>
+          <p>Desarrollo de paginas web completas siguiendo diseños de canva. 
+            Uso de frameworks para mejorar la funcionalidad de estas. Creación de Woocommerce.
+             Migración de paginas web. Diseño de elementos en Canva</p>
+          <!--iconos de programacion-->
+          <ul class="d-flex align-items-center flex-wrap gap-2">
+            <li>
+              <div class="ficha-lenguajes px-3 py-1 text-xs font-medium">HTML</div>
+            </li>
+            <li>
+              <div class="ficha-lenguajes px-3 py-1 text-xs font-medium">MySQL</div>
+            </li>
+            <li>
+              <div class="ficha-lenguajes px-3 py-1 text-xs font-medium">Javascript</div>
+            </li>
+            <li>
+              <div class="ficha-lenguajes px-3 py-1 text-xs font-medium">CSS</div>
+            </li>
+            <li>
+              <div class="ficha-lenguajes px-3 py-1 text-xs font-medium">SEO</div>
+            </li>
+            <li>
+              <div class="ficha-lenguajes px-3 py-1 text-xs font-medium">Wordpress</div>
+            </li>
+            <li>
+              <div class="ficha-lenguajes px-3 py-1 text-xs font-medium">Migraciones web</div>
+            </li>
+          </ul>
+        </div>
+        <!--Empresa 2-->
+        <div class="ficha-exp p-1 mb-1 container-fluid">
+          <a href="https://immune.institute/"> <!--enlace a la web-->
+            <span class="d-flex align-items-center">
+              <h3 class="fs-4 mb-0">IMMUNE Technology Institute | Centro de estudios tecnológicos</h3>
+              <i class="bi bi-box-arrow-up-right px-2 color-encabezados"></i>
+            </span>
+          </a>
+          <h4 class=" my-2">Maquetador y diseñador web | 04-2022 — 04-2024</h4>
+          <p>Producción de materiales educativos digitales con la herramienta de Content Cloud, 
+            diseño gráfico con figma y administración de LMS (Canvas Instructure)
+          </p>
+          <!--iconos de programacion-->
+          <ul class="d-flex align-items-center flex-wrap gap-2">
+            <li>
+              <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">HTML</div>
+            </li>
+            <li>
+              <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">CSS</div>
+            </li>
+            <li>
+              <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">Javascript</div>
+            </li>
+            <li>
+              <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">Figma</div>
+            </li>
+            <li>
+              <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">Moodle</div>
+            </li>
+            <li>
+              <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">Github</div>
+            </li>
+            <li>
+              <div class="ficha-lenguajes px-3 py-1 text-xs font-medium ">Discord</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Educacion-->
+      <div class="container mt-5" id="educacion">
+        <h2>Educación y cursos</h2>
+        <hr class="solid">
+      </div>
+      <section class="container padding-40">
+        <div class=" d-md-flex flex-row gap-4 align-items-stretch justify-content-start">
+          <div class="card" style="width: 14rem;">
+            <div class="container-fluid pt-3 px-2 d-flex justify-content-center align-items-center" style="width: 12rem;"><img
+                src="imagenes/logo-universae.png" class="rounded card-img-top p-4 white" alt="Logo de Universae"></div>
+            <div class="card-body">
+              <h5 class="card-title">Grado superior en Desarrollo de Aplicaciones Web</h5>
+              <p class="card-text">Universae</p>
+              <p class="card-text">02-2024 - 02/2025</p>
+            </div>
+          </div>
+          <div class="card" style="width: 14rem;">
+            <div class="container-fluid pt-3 px-2 d-flex justify-content-center align-items-center" style="width: 12rem;"><img
+                src="imagenes/logo-trazos.png" class="rounded card-img-top p-4 white" alt="Logo de Universae"></div>
+            <div class="card-body">
+              <h5 class="card-title">Máster en Diseño Gráfico y Web</h5>
+              <p class="card-text">Academia Trazos</p>
+              <p class="card-text">02-2024 - 02/2025</p>
+            </div>
+          </div>
+        </div>
+        <!--Cursos-->
+        <div class="container-fluid justify-content-start p-0">
+          <h3 class="mb-0 d-flex justify-content-start mt-3">Cursos</h3>
+          <div class="container-fluid p-0"><hr class="solid"></div>
+          <!--curso 1-->
+          <div class=" my-3 ">
+            <h4>Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL | Udemy | 2024</h4>
+          </div>
+          <!--curso 2-->
+          <div class=" my-3">
+            <h4>AngularJS Essentials - From Beginner to Advanced Developer | Udemy | 2025</h4>
+          </div>
+        </div>
+        
+      </section>
+    </main>
+    <!--footer-->
+    <footer class="container-fluid">
+      <div class="container p-4  mt-5 d-md-flex align-items-center justify-content-between">
+        <h2>Rodrigo Oliva</h2>
+        <div class="d-flex align-items-center gap-3">
+        <a href="https://www.linkedin.com/in/rodrigo-oliva-b43560263/"><i class="bi bi-linkedin blanco fs-4"></i></a>
+          <a href="https://github.com/Rodrigo-Olv?tab=repositories"><i class="bi bi-github blanco fs-4"></i></a>
+          <a href="https://www.behance.net/rodrigooliva98#"><i class="bi bi-behance blanco fs-4"></i></a>
+        </div>
+      </div>
+
+
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+  </body>
+</html>

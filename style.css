@@ -1,0 +1,250 @@
+
+
+
+/* Estilos generales*/
+
+body{
+    background: linear-gradient(90deg, #000000,#0d1521,#070e18);
+    margin: 0;
+}
+
+menu, ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 2.5rem;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+}
+h2{
+    font-size: 2rem;
+    color: #c9c9c9;
+    font-family: "Roboto Mono", monospace;
+}
+h3{
+    font-size: 1.6rem;
+    color: #c9c9c9;
+    font-family: "Roboto Mono", monospace;
+}
+h4{
+    font-size: 1rem;
+    margin: 0;
+    color: #c9c9c9;
+    font-family: "Roboto Mono", monospace;
+}
+p{
+    color: #b8b8b8;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+hr.solid {
+    border-top: 3px solid #c9c9c9;
+    max-width: 65%;
+}
+
+.color-encabezados{
+    color: #c9c9c9;
+}
+
+.progress{
+    height: 16px;
+}
+.text-xs{
+    font-size: 0.8rem;
+}
+.font-medium{
+    font-weight: 400px;
+}
+.white{
+    background-color: white;
+}
+.navbar-toggler-icon {
+    background-image: url(imagenes/Group\ 76.png);
+}
+.navbar-toggler{
+    border-color: #c9c9c9;
+};
+
+/*header*/
+#myHeader{
+    background-color: rgba(45, 212, 191, .1);
+}
+.navbar{
+    color: #fff;
+    padding: 2rem;
+}
+
+header {
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Inicialmente oculto */
+    z-index: 1000;
+    transition: top 0.3s; /* Agrega una animación suave */
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+/*Seccion principal*/
+
+.principal{
+    padding-top: 10rem;
+}
+.datos-principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.datos-principal h2{
+    font-size: 1.5rem;
+    color: #615151;
+    display: flex;
+    flex-direction: column;
+    
+}
+.blanco{
+    color: #fff;
+}
+.iconos-lenguajes{
+    max-width: 24px;
+}
+.btn-linkedin{
+    background-color: #0077b5;
+}
+.btn-behance{
+    background-color: #053eff;
+}
+.btn-github{
+    background-color: #24292e;
+}
+.btn-contacto{
+    border-color: white;
+    border-radius: 5px;
+    color: #fff;
+    font-weight:500;
+    padding: 0.2rem 0.3rem;
+    border: #fff solid 1px;
+}
+.btn-pdf{
+    background-color: #24292e;
+}
+/*proyectos*/
+
+.div-img-proyecto{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.img-proyecto{
+    border-radius: 20px;
+    margin: 10px;
+    min-height: 148px;
+}
+
+.text-teal-300 {
+    opacity: 1;
+    color: rgb(94 234 212);
+}
+.bg-teal-400 {
+    background-color: rgba(45, 212, 191, .1);
+}
+.descripcion-proyecto{
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+.ficha-lenguajes{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(45, 212, 191, .1);
+    opacity: 1;
+    color: rgb(94 234 212);
+}
+/*Educacion*/
+.card-title{
+    text-align: center;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+.card-text{
+    text-align: center;
+    color: #615151;
+    margin-bottom: 0;
+}
+/*Footer*/
+footer{
+    background-color: rgba(45, 212, 191, .1);
+}
+/*Responsive*/
+
+@media screen and (max-width:767px){
+    .navbar-brand{
+        display: none;
+    }
+    .principal{
+        padding: 40px;
+    }
+    .back{
+        padding-top: 20px;
+    }
+    .div-img-proyecto{
+        width: 100%;
+    }
+    .proyectos{
+        padding: 40px;
+        margin: 0px;
+    }
+    #proyectos{
+        margin: 0px;
+        padding-left: 40px;
+    }
+    .img-proyecto{
+        height: 200px;
+    }
+    #exp{
+        padding: 40px;
+    }
+    #experiencia{
+        padding-left: 40px;
+        margin: 0px;
+    }
+    #educacion{
+        padding-left: 40px;
+    }
+    .padding-40{
+        padding: 40px;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .btn-contacto{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+    .navbar>.container-fluid{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+
+
